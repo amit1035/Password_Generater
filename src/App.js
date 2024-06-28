@@ -34,6 +34,7 @@ function App() {
     passwordGenerator()
   },[length, numberAllowed,charAllowed,passwordGenerator])
   return (
+    <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat" style={{backgroundImage: `url('https://static.vecteezy.com/system/resources/thumbnails/026/602/799/original/stock-market-abstract-finance-background-with-motion-graph-charts-diagrams-of-financial-statistics-4k-resolution-video.jpg')`}}>
 
     <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-700'>
     
